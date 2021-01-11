@@ -1,5 +1,6 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 
 span {
@@ -16,5 +17,23 @@ header {
   }
 
 header h2{
-    padding-top: 60rem;
+    padding-top: 50rem;
 }
+
+.iconos {
+    font-size: 8rem;
+  }
+
+  .carrusel {
+      border-radius: 50px;
+  }
+
+  .carousel-indicators {
+    top: 50px;
+  }
+  
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
