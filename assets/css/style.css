@@ -7,18 +7,20 @@ span {
     font-size: 2rem;
 }
 
-header {
-    background-image: url('../img/foto.jpg');
+.hero{
+    background-image: url('../img/FOTO.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    padding:0 0 10rem 0;
-    width: 100%;
-  }
-
-header h2{
-    padding-top: 50rem;
-}
+    height: 650px;
+    margin-top: 50px;
+    }
+  
+    @media only screen and (max-width: 600px) {
+      .hero{ 
+        height: 350px;
+        margin-top: 60px;
+      };
+    }
 
 .iconos {
     font-size: 8rem;
