@@ -6,20 +6,23 @@ body {
 span {
     font-size: 2rem;
 }
-
-.hero{
+.letra{
+    font-size: 5rem;
+}
+header{
     background-image: url('../img/FOTO.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
-    margin-top: 50px;
+    height: 800px;
+    margin-top: 0;
     }
   
     @media only screen and (max-width: 600px) {
-      .hero{ 
+      header{ 
         height: 350px;
         margin-top: 60px;
       };
+    }
     }
 
 .iconos {
